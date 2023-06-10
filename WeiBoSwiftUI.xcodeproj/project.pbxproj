@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE0637222A32C8B80007E511 /* WeiBoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637212A32C8B80007E511 /* WeiBoSwiftUIApp.swift */; };
-		CE0637242A32C8B80007E511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637232A32C8B80007E511 /* ContentView.swift */; };
 		CE0637262A32C8B90007E511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0637252A32C8B90007E511 /* Assets.xcassets */; };
 		CE0637292A32C8B90007E511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0637282A32C8B90007E511 /* Preview Assets.xcassets */; };
 		CE0637302A32CEE40007E511 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06372F2A32CEE40007E511 /* PostCell.swift */; };
@@ -100,12 +99,12 @@
 		CE0637DE2A32FEDF0007E511 /* PostCellToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637DD2A32FEDF0007E511 /* PostCellToolbarButton.swift */; };
 		CE0637E02A3303030007E511 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637DF2A3303030007E511 /* PostListView.swift */; };
 		CE0637E22A330E8D0007E511 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637E12A330E8D0007E511 /* PostImageCell.swift */; };
+		CE0637E42A3428FF0007E511 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637E32A3428FF0007E511 /* PostDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE06371E2A32C8B80007E511 /* WeiBoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0637212A32C8B80007E511 /* WeiBoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiBoSwiftUIApp.swift; sourceTree = "<group>"; };
-		CE0637232A32C8B80007E511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE0637252A32C8B90007E511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0637282A32C8B90007E511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE06372F2A32CEE40007E511 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
@@ -197,6 +196,7 @@
 		CE0637DD2A32FEDF0007E511 /* PostCellToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellToolbarButton.swift; sourceTree = "<group>"; };
 		CE0637DF2A3303030007E511 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		CE0637E12A330E8D0007E511 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		CE0637E32A3428FF0007E511 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,13 +233,13 @@
 				CE0637312A32D4750007E511 /* PostVIPBadge.swift */,
 				CE06372F2A32CEE40007E511 /* PostCell.swift */,
 				CE0637332A32E54E0007E511 /* Post.swift */,
+				CE0637E12A330E8D0007E511 /* PostImageCell.swift */,
 				CE0637DD2A32FEDF0007E511 /* PostCellToolbarButton.swift */,
+				CE0637DF2A3303030007E511 /* PostListView.swift */,
 				CE0637212A32C8B80007E511 /* WeiBoSwiftUIApp.swift */,
-				CE0637232A32C8B80007E511 /* ContentView.swift */,
 				CE0637252A32C8B90007E511 /* Assets.xcassets */,
 				CE0637272A32C8B90007E511 /* Preview Content */,
-				CE0637DF2A3303030007E511 /* PostListView.swift */,
-				CE0637E12A330E8D0007E511 /* PostImageCell.swift */,
+				CE0637E32A3428FF0007E511 /* PostDetailView.swift */,
 			);
 			path = WeiBoSwiftUI;
 			sourceTree = "<group>";
@@ -495,7 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0637242A32C8B80007E511 /* ContentView.swift in Sources */,
+				CE0637E42A3428FF0007E511 /* PostDetailView.swift in Sources */,
 				CE0637DE2A32FEDF0007E511 /* PostCellToolbarButton.swift in Sources */,
 				CE0637322A32D4750007E511 /* PostVIPBadge.swift in Sources */,
 				CE0637222A32C8B80007E511 /* WeiBoSwiftUIApp.swift in Sources */,
