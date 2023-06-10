@@ -62,7 +62,8 @@ struct PostListView: View {
                     PostCell(post: post)
                     NavigationLink(destination: PostDetailView(post: post)) {
                         EmptyView()
-                    }.buttonStyle(.plain)
+                    }.opacity(0)
+        
                 }
                 .listRowInsets(EdgeInsets())
             }
