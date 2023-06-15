@@ -100,6 +100,7 @@
 		CE0637E02A3303030007E511 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637DF2A3303030007E511 /* PostListView.swift */; };
 		CE0637E22A330E8D0007E511 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637E12A330E8D0007E511 /* PostImageCell.swift */; };
 		CE0637E42A3428FF0007E511 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637E32A3428FF0007E511 /* PostDetailView.swift */; };
+		CEAD15AE2A3A97430068D400 /* HomeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD15AD2A3A97430068D400 /* HomeNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -197,6 +198,7 @@
 		CE0637DF2A3303030007E511 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		CE0637E12A330E8D0007E511 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		CE0637E32A3428FF0007E511 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		CEAD15AD2A3A97430068D400 /* HomeNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				CE0637252A32C8B90007E511 /* Assets.xcassets */,
 				CE0637272A32C8B90007E511 /* Preview Content */,
 				CE0637E32A3428FF0007E511 /* PostDetailView.swift */,
+				CEAD15AD2A3A97430068D400 /* HomeNavBar.swift */,
 			);
 			path = WeiBoSwiftUI;
 			sourceTree = "<group>";
@@ -496,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0637E42A3428FF0007E511 /* PostDetailView.swift in Sources */,
+				CEAD15AE2A3A97430068D400 /* HomeNavBar.swift in Sources */,
 				CE0637DE2A32FEDF0007E511 /* PostCellToolbarButton.swift in Sources */,
 				CE0637322A32D4750007E511 /* PostVIPBadge.swift in Sources */,
 				CE0637222A32C8B80007E511 /* WeiBoSwiftUIApp.swift in Sources */,
