@@ -101,6 +101,8 @@
 		CE0637E22A330E8D0007E511 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637E12A330E8D0007E511 /* PostImageCell.swift */; };
 		CE0637E42A3428FF0007E511 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0637E32A3428FF0007E511 /* PostDetailView.swift */; };
 		CEAD15AE2A3A97430068D400 /* HomeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD15AD2A3A97430068D400 /* HomeNavBar.swift */; };
+		CEAD15B02A3ABBBD0068D400 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD15AF2A3ABBBD0068D400 /* HomeView.swift */; };
+		CEAD15B22A3ABF9A0068D400 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD15B12A3ABF9A0068D400 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -199,6 +201,8 @@
 		CE0637E12A330E8D0007E511 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		CE0637E32A3428FF0007E511 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		CEAD15AD2A3A97430068D400 /* HomeNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavBar.swift; sourceTree = "<group>"; };
+		CEAD15AF2A3ABBBD0068D400 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEAD15B12A3ABF9A0068D400 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +247,8 @@
 				CE0637272A32C8B90007E511 /* Preview Content */,
 				CE0637E32A3428FF0007E511 /* PostDetailView.swift */,
 				CEAD15AD2A3A97430068D400 /* HomeNavBar.swift */,
+				CEAD15AF2A3ABBBD0068D400 /* HomeView.swift */,
+				CEAD15B12A3ABF9A0068D400 /* UserData.swift */,
 			);
 			path = WeiBoSwiftUI;
 			sourceTree = "<group>";
@@ -501,7 +507,9 @@
 				CE0637E42A3428FF0007E511 /* PostDetailView.swift in Sources */,
 				CEAD15AE2A3A97430068D400 /* HomeNavBar.swift in Sources */,
 				CE0637DE2A32FEDF0007E511 /* PostCellToolbarButton.swift in Sources */,
+				CEAD15B02A3ABBBD0068D400 /* HomeView.swift in Sources */,
 				CE0637322A32D4750007E511 /* PostVIPBadge.swift in Sources */,
+				CEAD15B22A3ABF9A0068D400 /* UserData.swift in Sources */,
 				CE0637222A32C8B80007E511 /* WeiBoSwiftUIApp.swift in Sources */,
 				CE0637302A32CEE40007E511 /* PostCell.swift in Sources */,
 				CE0637342A32E54E0007E511 /* Post.swift in Sources */,

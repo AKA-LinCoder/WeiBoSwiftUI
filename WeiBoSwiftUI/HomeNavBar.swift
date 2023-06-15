@@ -66,7 +66,7 @@ struct HomeNavBar: View {
                 ).padding(.horizontal,15).padding(.top,5).foregroundColor(.orange )
             }
           
-        }
+        }.frame(width: UIScreen.main.bounds.width)
         
         
     }

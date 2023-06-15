@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct PostListView: View {
+    
+    let category: PostListCategory
+    var postList : PostList{
+        switch category {
+        case .recommend:
+            return loadPostListData(fileName: "PostListData_recommend_1.json")
+        case .hot:
+            return loadPostListData(fileName: "PostListData_hot_1.json")
+        }
+    }
+    
     var body: some View {
         List{
-            ForEach(postList.list) { post in
+            ForEach(self.postList.list) { post in
                 //垂直屏幕方向
                 ZStack{
                     PostCell(post: post)
@@ -30,7 +41,7 @@ struct PostListView: View {
 struct PostListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            PostListView()
+            PostListView(category: .recommend)
                 .navigationBarTitle("我是标题")
             ///想要隐藏 必须随便设置个标题
                 .navigationBarHidden(true)
